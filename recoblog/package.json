@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "github:vuepress-reco/vuepress-plugin-bgm-player",
+    "vuepress": "1.5.4",
+    "vuepress-plugin-go-top": "^1.0.4",
+    "vuepress-theme-reco": "1.5.7"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "vue-class-component": "^7.2.3"
+  },
+  "description": "个人博客"
+}
